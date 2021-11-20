@@ -1,0 +1,151 @@
+html{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(92, 31, 51);
+    padding-bottom: 50px;
+}
+.logo{
+    height:80px;
+    width:80px;
+    position:relative;
+    right:365px;
+    border-radius: 50px;
+}
+/* splash screen css starts here  */
+#loading{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    /* background: #e4eff2 url("https://media.giphy.com/media/xTk9ZvMnbIiIew7IpW/giphy.gif") no-repeat center center; */
+    z-index: 99999;
+}
+/* splash screen css ends here  */
+
+/* navbar css starts here  */
+.bg-light{
+    background-color: #b3f1c8!important;
+    padding-left: 450px;
+}
+
+.navbar-brand{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    font-size: 4rem;
+    color:#09010e;
+    color: purple!important;
+}
+
+.nav-link{
+    color: #000000!important;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:100px;
+    
+}
+
+.nav-link:hover{
+    background-color: rgb(248, 247, 247);
+}
+/* navbar css ends here  */
+
+/* here content css starts here  */
+.hero-content{
+    height: 100vh;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    width:241vh;
+    background-color: #000000;
+    color: #aed326;
+    padding: 4rem;
+    border-bottom-left-radius: 00rem;
+    border-bottom-right-radius: 500rem;
+    margin-bottom: 1vh;
+}
+
+.digi-img{
+    height: 700%;
+    width: 50%;
+    position: relative;
+    right:150px;
+    border-radius:150px;
+}
+
+@media only screen and (max-width: 900px) {
+    .digi-img {
+      display:none;
+    }
+}
+
+.get-started{
+    border-radius: 200rem;
+    padding: 3rem 2rem;
+    font-size: 200%;
+    height:50px;
+    width:100px;
+    font-style: italic;
+    background-color: rgb(218, 106, 106);
+    color: #030b0f!important;
+    transition: 0.10s;
+}
+
+.get-started:hover{
+    text-decoration:none;
+    background-color: #bfdff0;
+    
+}
+/* here content css starts here  */
+
+/* get-started-buttons css starts here*/
+.get-started-content{
+    height: 60vh;
+    background-color: #ff8a65;
+    border-top-left-radius: 42rem;
+    border-top-right-radius: 42rem;
+    border-bottom-right-radius: 42rem;
+    border-bottom-left-radius: 42rem;
+}
+
+.get-started-content .row{
+    padding: 25vh 0;
+}
+
+.get-started-content a{
+    border-radius: 0.5rem;
+    padding: 1rem 2rem;
+    font-size: 162%;
+    background-color: #ac6515;
+    color: rgb(7, 11, 252)!important;
+    transition: 0.3s;
+}
+
+.get-started-content a:hover{
+    background-color: #b3b601;
+    text-decoration: none;
+}
+/* get-started-buttons css end here*/
+
+/* footer css starts here */
+footer{
+    background-color:  #e4e14f;
+    font-size: 30px;
+}
+
+.social-icons li{
+    list-style: none;
+    display: inline;
+    padding: 0.5rem;
+}
+
+.github{
+    color: #24292e;
+}
+
+.linkedin{
+    color: #0077b5;
+}
+
+.google{
+    color: #D44638;
+}
+/* footer css ends here  */

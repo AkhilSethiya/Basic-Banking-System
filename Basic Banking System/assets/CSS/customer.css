@@ -1,0 +1,74 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color:rgb(14, 14, 13);
+}
+
+/* navbar css starts here  */
+.bg-light{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color:#e0de59!important;
+}
+
+.navbar-brand{
+   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    font-size: 4rem;
+    color:#09010e;
+    color: rgb(75, 44, 77)!important;
+}
+
+.nav-link{
+     color: #070707!important;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size:250px;
+    position:relative;
+    right:50px;
+}
+
+.nav-link:hover{
+    background-color: rgb(224, 216, 216);
+}
+/* navbar css ends here  */
+
+.my-info{
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 2rem 5rem;
+}
+
+.btn-info{
+    padding: 1rem 1.2rem;
+    background-color: rgb(224, 106, 142)!important;
+    color: #fff!important;
+    margin-left: 5px;
+    padding: 0.75rem;
+    transition: all 0.3s;
+    border-radius: 50px;
+}
+
+.btn-info:hover{
+    background-color: rgb(135, 124, 235)!important;
+}
+
+.tr:hover {background-color: yellow;}
+
+.table table-hover{
+    background-color: indigo;
+}
+
+
+
+.container{
+    background-color: gold;
+}
+/*
+table table-info{
+    background-color:tomato ;
+}
+
+table-responsive{
+background-color: hotpink;
+}
+
+table.light{
+    background-color: rgb(165, 165, 165);
+}
